@@ -1,0 +1,62 @@
+{
+  "name": "ResearchPilot AI",
+  "short_name": "ResearchPilot",
+  "description": "ResearchPilot AI is an Agentic AI-powered research assistant that automates literature search, paper summarization, document-based question answering, paper comparison, research gap identification, and idea generation using IBM watsonx.ai, IBM Granite models, and Retrieval-Augmented Generation (RAG).",
+  "version": "1.0.0",
+  "author": "ResearchPilot AI Team",
+  "license": "MIT",
+  "homepage": "/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/researchpilot-ai"
+  },
+  "keywords": [
+    "Agentic AI",
+    "IBM Granite",
+    "IBM watsonx.ai",
+    "RAG",
+    "Research Assistant",
+    "Academic Research",
+    "Literature Review",
+    "Document AI",
+    "Paper Summarization",
+    "FastAPI",
+    "React",
+    "Artificial Intelligence"
+  ],
+  "technologies": {
+    "frontend": [
+      "React",
+      "Vite",
+      "Tailwind CSS"
+    ],
+    "backend": [
+      "Python",
+      "FastAPI"
+    ],
+    "database": [
+      "SQLite"
+    ],
+    "ai": [
+      "IBM watsonx.ai",
+      "IBM Granite",
+      "Retrieval-Augmented Generation (RAG)"
+    ]
+  },
+  "features": [
+    "Literature Search",
+    "Research Paper Summarization",
+    "PDF Upload & Analysis",
+    "Question Answering",
+    "Paper Comparison",
+    "Research Gap Detection",
+    "Research Idea Generation",
+    "Context-Aware Chat",
+    "Reference Assistance"
+  ],
+  "deployment": {
+    "frontend": "Vercel",
+    "backend": "Render",
+    "database": "SQLite"
+  }
+}
