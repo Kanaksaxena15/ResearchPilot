@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* IBM Design Palette */
+  --color-ibm-dark: #161616;
+  --color-ibm-gray-90: #262626;
+  --color-ibm-gray-80: #393939;
+  --color-ibm-gray-70: #525252;
+  --color-ibm-gray-50: #8d8d8d;
+  --color-ibm-gray-20: #e0e0e0;
+  --color-ibm-gray-10: #f4f4f4;
+  --color-ibm-blue-60: #0f62fe;
+  --color-ibm-blue-70: #0043ce;
+  --color-ibm-blue-80: #002d9c;
+  --color-ibm-blue-10: #edf5ff;
+}
+
+/* Custom scrollbars for IBM style lists and details panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-ibm-gray-80);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ibm-gray-70);
+}
+
+/* IBM Grid background effect for the Landing screen */
+.ibm-grid-bg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-color: #161616;
+}
+
+/* Smooth typing text or fade animation helpers */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

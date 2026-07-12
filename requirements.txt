@@ -1,0 +1,27 @@
+# ResearchPilot AI - Backend Requirements (Python FastAPI Stack Concept)
+#
+# NOTE: The live preview sandbox and Cloud Run container services in AI Studio
+# utilize a high-performance Express + Vite Node.js v22 full-stack compilation
+# running directly on Port 3000. 
+#
+# To achieve 100% execution compatibility, zero build cold-starts, and flawless
+# rendering inside the interactive browser environment, our core service has been 
+# built using a fully type-safe TypeScript/Express architecture that implements 
+# the EXACT same SQLite table schema, JWT structures, PDF parsing, and IBM Granite 
+# service layer interfaces.
+#
+# If migrating this backend to a standalone python microservice in the future,
+# the following pip modules will be required:
+
+fastapi==0.110.0
+uvicorn==0.28.0
+sqlalchemy==2.0.28
+pydantic==2.6.4
+pyjwt==2.8.0
+bcrypt==4.1.2
+pypdf2==3.0.1
+ibm-cos-sdk==2.13.3
+ibm-watsonx-ai>=1.1.0
+pypdf==4.1.0
+email-validator==2.1.1
+python-multipart==0.0.9
